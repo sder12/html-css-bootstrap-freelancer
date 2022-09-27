@@ -1,0 +1,26 @@
+/* COMMON */
+img {
+  max-width: 100%;
+}
+html {
+  font-size: 100%;
+}
+
+/* VARIABLES */
+:root {
+  /* Colors */
+  --bg-green: #1abc9c;
+  --bg-dark-blue: #2c3e50;
+  --bg-light-blue: #3a546d;
+  /* Dimension */
+  --header-height: 80px;
+}
+
+/* LINK and LIST*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
