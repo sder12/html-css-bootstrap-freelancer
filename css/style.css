@@ -53,3 +53,24 @@ header{
   /* DEBUG */
   height: 300px;
 }
+
+/* Contact */
+#contact{
+  /* DEBUG */
+  height: 300px;
+}
+
+/* Footer */
+footer{
+  color: white;
+}
+#footer-top span{
+  color: var(--bg-green);
+}
+#footer-top{
+  background-color: var(--bg-light-blue);
+}
+#footer-bottom{
+  background-color: var(--bg-dark-blue);
+  padding: 2em;
+}
