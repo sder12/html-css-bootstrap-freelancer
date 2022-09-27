@@ -13,7 +13,7 @@ html {
   --bg-dark-blue: #2c3e50;
   --bg-light-blue: #3a546d;
   /* Dimension */
-  --header-height: 80px;
+  --header-height: 60px;
 }
 
 /* LINK and LIST*/
@@ -23,4 +23,33 @@ a {
 }
 ul {
   list-style-type: none;
+}
+
+/* Header */
+header{
+  color: white;
+  background-color: var(--bg-dark-blue);
+  line-height: var(--header-height);
+  height: var(--header-height);
+}
+.menu ul li {
+  margin: 0 1em;
+}
+/* Banner */
+#banner{
+  background-color: var(--bg-green);
+  /* DEBUG */
+  height: 200px;
+}
+#banner ul li{
+  margin: 0 1em;
+}
+
+/* Portfolio */
+
+/* About*/
+#about{
+  background-color: var(--bg-green);
+  /* DEBUG */
+  height: 300px;
 }

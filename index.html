@@ -11,7 +11,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css">
-  l
+
   <!-- Fontawsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -21,8 +21,32 @@
 
 <body>
 
-  <!-- HEADER ----------->
+  <!-- HEADER -->
   <header>
+    <div class="container">
+      <nav class="row">
+        <!-- Logo -->
+        <div class="col-6">
+          <a href="">Start Bootstrap</a>
+        </div>
+
+        <div class="col-6 ">
+          <!-- Menu -->
+          <div class="menu d-none d-md-block d-flex">
+            <ul class="d-flex justify-content-end">
+              <li><a href="">PORTFOLIO</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </div>
+          <!-- Hamburger -->
+          <div class="hamburger d-md-none text-end">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+      </nav>
+    </div>
   </header>
   <!-- End HEADER -->
 
@@ -30,16 +54,61 @@
   <main>
     <!-- Banner -->
     <section id="banner">
+      <div class="container">
+        <h3>START BOOTSTRAP</h3>
+        <ul class="d-flex">
+          <li>GRAPHIC ARTIST</li>
+          <li>WEB DESIGNER</li>
+          <li>ILLUSTRATOR</li>
+        </ul>
+      </div>
     </section>
     <!-- End Banner -->
 
     <!-- Portfolio -->
     <section id="portfolio">
+      <div class="container">
+        <h2>PORTFOLIO</h2>
+        <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <img src="img/cabin.png" alt="">
+          </div>
+          <div class="col">
+            <img src="img/cake.png" alt="">
+          </div>
+          <div class="col">
+            <img src="img/circus.png" alt="">
+          </div>
+          <div class="col">
+            <img src="img/game.png" alt="">
+          </div>
+          <div class="col">
+            <img src="img/safe.png" alt="">
+          </div>
+          <div class="col">
+            <img src="img/submarine.png" alt="">
+          </div>
+        </div>
+      </div>
     </section>
     <!-- End Portfolio -->
 
     <!--About-->
     <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="row">
+          <div class="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima harum animi iste nostrum natus itaque? Iusto, delectus asperiores! Sed facilis debitis beatae? Repudiandae, assumenda maiores autem corporis voluptatibus optio?
+          </div>
+          <div class="col">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, possimus recusandae? Aliquid beatae incidunt id est architecto, ducimus cumque, voluptatem praesentium dolor amet autem cupiditate modi impedit, sequi accusantium perferendis.
+          </div>
+          <div class="col-12 text-center">
+            <div class="btn"> Download</div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End About-->
 
