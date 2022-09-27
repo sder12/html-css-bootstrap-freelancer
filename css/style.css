@@ -44,7 +44,9 @@ h3{
 header, #banner, #about, footer, .btn{
   color: white;
 }
-
+.hamburger{
+  color: darkgrey;
+}
 /* BACKGROUND */
 #banner, #about, .btn{
   background-color: var(--bg-green);
@@ -79,7 +81,9 @@ header{
   background-color: var(--bg-dark-blue);
   padding: 2em;
 }
-
 #footer-top span{
   color: var(--bg-green);
+}
+#footer-top ul li{
+  margin: 0 .2em;
 }
