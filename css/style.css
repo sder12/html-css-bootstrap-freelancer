@@ -25,9 +25,21 @@ ul {
   list-style-type: none;
 }
 
+/* TYPOGRAPHY */
+h3{
+  text-align: center;
+}
+header, #banner, #about, footer, .btn{
+  color: white;
+}
+
+/* BACKGROUND */
+#banner, #about, .btn{
+  background-color: var(--bg-green);
+}
+
 /* Header */
 header{
-  color: white;
   background-color: var(--bg-dark-blue);
   line-height: var(--header-height);
   height: var(--header-height);
@@ -36,41 +48,26 @@ header{
   margin: 0 1em;
 }
 /* Banner */
-#banner{
-  background-color: var(--bg-green);
-  /* DEBUG */
-  height: 200px;
-}
 #banner ul li{
-  margin: 0 1em;
+  margin: 0 .3em;
 }
-
+#banner img{
+  width: 50%;
+}
 /* Portfolio */
-
 /* About*/
-#about{
-  background-color: var(--bg-green);
-  /* DEBUG */
-  height: 300px;
-}
-
 /* Contact */
-#contact{
-  /* DEBUG */
-  height: 300px;
-}
+
 
 /* Footer */
-footer{
-  color: white;
-}
-#footer-top span{
-  color: var(--bg-green);
-}
 #footer-top{
   background-color: var(--bg-light-blue);
 }
 #footer-bottom{
   background-color: var(--bg-dark-blue);
   padding: 2em;
+}
+
+#footer-top span{
+  color: var(--bg-green);
 }

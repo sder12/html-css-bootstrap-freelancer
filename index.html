@@ -54,11 +54,17 @@
   <main>
     <!-- Banner -->
     <section id="banner">
-      <div class="container">
+      <div class="container text-center">
+        <img src="img/avatar.svg" alt="">
         <h3>START BOOTSTRAP</h3>
-        <ul class="d-flex">
+        <div class="star text-center mb-3">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <ul class="d-flex justify-content-center">
           <li>GRAPHIC ARTIST</li>
+          <li>-</li>
           <li>WEB DESIGNER</li>
+          <li>-</li>
           <li>ILLUSTRATOR</li>
         </ul>
       </div>
@@ -66,27 +72,30 @@
     <!-- End Banner -->
 
     <!-- Portfolio -->
-    <section id="portfolio">
+    <section id="portfolio" class="mt-5">
       <div class="container">
-        <h2>PORTFOLIO</h2>
+        <h3>PORTFOLIO</h3>
+        <div class="star text-center mb-3">
+          <i class="fa-solid fa-star"></i>
+        </div>
         <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col">
-            <img src="img/cabin.png" alt="">
+            <img src="img/cabin.png" alt="" class="rounded">
           </div>
           <div class="col">
-            <img src="img/cake.png" alt="">
+            <img src="img/cake.png" alt="" class="rounded">
           </div>
           <div class="col">
-            <img src="img/circus.png" alt="">
+            <img src="img/circus.png" alt="" class="rounded">
           </div>
           <div class="col">
-            <img src="img/game.png" alt="">
+            <img src="img/game.png" alt="" class="rounded">
           </div>
           <div class="col">
-            <img src="img/safe.png" alt="">
+            <img src="img/safe.png" alt="" class="rounded">
           </div>
           <div class="col">
-            <img src="img/submarine.png" alt="">
+            <img src="img/submarine.png" alt="" class="rounded">
           </div>
         </div>
       </div>
@@ -94,9 +103,12 @@
     <!-- End Portfolio -->
 
     <!--About-->
-    <section id="about">
+    <section id="about" class="mt-5">
       <div class="container">
-        <h2>About</h2>
+        <h3>ABOUT</h3>
+        <div class="star text-center mb-3">
+          <i class="fa-solid fa-star"></i>
+        </div>
         <div class="row g-3">
           <div class="col-12 col-md-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima harum animi iste nostrum natus
@@ -109,7 +121,7 @@
             accusantium perferendis.
           </div>
           <div class="col-12 text-center">
-            <div class="btn"> Download</div>
+            <div class="btn border-white"> <i class="fa-solid fa-download"></i> Download</div>
           </div>
         </div>
       </div>
@@ -117,15 +129,18 @@
     <!--End About-->
 
     <!--Contact-->
-    <section id="contact">
+    <section id="contact" class="mt-3">
       <div class="container">
-        <h2>Contact me</h2>
+        <h3>CONTACT ME</h3>
+        <div class="star text-center mb-3">
+          <i class="fa-solid fa-star"></i>
+        </div>
         <ul>
           <li>Name</li>
           <li>Email Adress</li>
           <li>Phone Number</li>
           <li>Message</li>
-          <li>Send </li>
+          <li class="btn">Send </li>
         </ul>
       </div>
     </section>
@@ -137,15 +152,21 @@
   <footer>
     <section id="footer-top">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4">
+        <div class="row text-center">
+          <div class="col-12 col-md-4 g-3">
             <h4>LOCATION</h4>
             2215 John Daniel Drive Clark, MO 54243
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 g-3">
             <h4>AROUND THE WEB</h4>
+            <ul class="d-flex justify-content-center">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 g-3">
             <h4> ABOUT FREELANCER</h4>
             Freelance is a free to use, open source Bootstrap theme
             created by <span> Start Bootstrap</span>.
@@ -156,7 +177,7 @@
 
     <section id="footer-bottom">
       <div class="container text-center">
-        Copyright Your Website 2019
+        Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
       </div>
     </section>
 
