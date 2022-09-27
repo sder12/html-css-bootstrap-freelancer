@@ -15,6 +15,18 @@ html {
   /* Dimension */
   --header-height: 60px;
 }
+/* WRAPPER */
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+  padding:  2em 0;
+}
+
+.wrapper-small{
+  width: 70%;
+  margin: 0 auto;
+  padding:  2em 0;
+}
 
 /* LINK and LIST*/
 a {
@@ -52,7 +64,7 @@ header{
   margin: 0 .3em;
 }
 #banner img{
-  width: 50%;
+  width: 40%;
 }
 /* Portfolio */
 /* About*/
