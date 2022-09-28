@@ -16,16 +16,16 @@ html {
   --header-height: 70px;
 }
 /* WRAPPER */
-.wrapper-small{
+.wrapper-small {
   width: 60%;
   margin: 0 auto;
 }
 
 /* SECTION p m */
-.ms_section{
+.ms_section {
   padding: 3em 0em;
 }
-.ms_section-heading{
+.ms_section-heading {
   margin-bottom: 1em;
 }
 
@@ -39,12 +39,14 @@ ul {
 }
 
 /* BACKGROUND */
-#banner, #about, .btn{
+#banner,
+#about,
+.btn {
   background-color: var(--ms_bg-green);
 }
 
 /* Header */
-header{
+header {
   background-color: var(--ms_bg-dark-blue);
   line-height: var(--header-height);
   height: var(--header-height);
@@ -53,62 +55,83 @@ header{
   margin: 0 1em;
 }
 /* Banner */
-#banner ul li{
-  margin: 0 .3em;
+#banner ul li {
+  margin: 0 0.3em;
 }
-#banner img{
+#banner img {
   width: 40%;
 }
 
 /* Footer */
-#footer-top{
+#footer-top {
   background-color: var(--ms_bg-light-blue);
 }
-#footer-bottom{
+#footer-bottom {
   background-color: var(--ms_bg-dark-blue);
   padding: 2em;
 }
-#footer-top p a{
+#footer-top p a {
   color: var(--ms_bg-green);
 }
-#footer-top ul li{
-  margin: 0 .2em;
+#footer-top ul li {
+  margin: 0 0.2em;
 }
 
-
-
 /* TYPOGRAPHY */
-h3{
+h3 {
   text-align: center;
   font-size: 2rem;
 }
-header, #banner, #about, footer, .btn{
+header,
+#banner,
+#about,
+footer,
+.btn {
   color: white;
 }
-.hamburger{
+.hamburger {
   color: darkgrey;
 }
-.ms_active, h3, nav:first-child{
+.ms_active,
+h3,
+nav:first-child {
   font-weight: 700;
 }
-#about p, footer p{
+#about p,
+footer p {
   font-size: 1.2rem;
 }
 
 /* STAR */
-.ms_star::before, .ms_star::after{
-  content: '';
+.ms_star::before,
+.ms_star::after {
+  content: "";
   display: inline-block;
-  height: 5px;
+  height: 4px;
   width: 60px;
   background-color: black;
   vertical-align: middle;
   border-radius: 5px;
 }
-.ms_star-white::before, .ms_star-white::after{
+.ms_star-white::before,
+.ms_star-white::after {
   background-color: rgb(255, 255, 255);
 }
-.fa-star{
+.fa-star {
   vertical-align: middle;
   font-size: 1.4rem;
+}
+
+/* Modify Boostrap */
+.form-floating > label {
+  padding: 1rem 0;
+}
+.form-control {
+  border: none;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+form > .form-floating{
+  border-bottom: 1.5px solid lightgrey;
 }
