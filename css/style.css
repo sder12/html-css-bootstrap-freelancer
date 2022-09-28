@@ -73,8 +73,15 @@ header {
 #footer-top p a {
   color: var(--ms_bg-green);
 }
+#footer-top ul {
+  padding-left: 0;
+}
 #footer-top ul li {
-  margin: 0 0.2em;
+  margin: 0 0.4em;
+}
+#footer-top ul li i {
+  width: 30px;
+  height: 30px;
 }
 
 /* TYPOGRAPHY */
@@ -129,9 +136,22 @@ footer p {
 .form-control {
   border: none;
 }
-.form-control:focus{
+.form-control:focus {
   box-shadow: none;
 }
-form > .form-floating{
+form > .form-floating {
   border-bottom: 1.5px solid lightgrey;
+}
+
+@media screen and (min-width: 990px) {
+  #banner img {
+    width: 400px;
+  }
+  h3 {
+    font-size: 4.4rem;
+  }
+  .ms_star::before,
+  .ms_star::after {
+    width: 160px;
+  }
 }
