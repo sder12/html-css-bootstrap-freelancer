@@ -26,22 +26,22 @@
     <div class="container">
       <nav class="row">
         <!-- Logo -->
-        <div class="col-6">
-          <a href="">Start Bootstrap</a>
+        <div class="col-6 font-weight-bold">
+          <a href="" class="text-uppercase">Start Bootstrap</a>
         </div>
 
         <div class="col-6 ">
           <!-- Menu -->
-          <div class="menu d-none d-md-block d-flex">
+          <div class="ms_menu d-none d-md-block d-flex">
             <ul class="d-flex justify-content-end">
-              <li><a href="">PORTFOLIO</a></li>
+              <li><a href="" class="ms_active">PORTFOLIO</a></li>
               <li><a href="">ABOUT</a></li>
               <li><a href="">CONTACT</a></li>
             </ul>
           </div>
           <!-- Hamburger -->
           <div class="hamburger d-md-none text-end ">
-            <i class="fa-solid fa-bars border border-light p-1"></i>
+            <i class="fa-solid fa-bars border border-light p-2 rounded"></i>
           </div>
         </div>
 
@@ -53,33 +53,47 @@
   <!-- MAIN ------------->
   <main>
     <!-- Banner -->
-    <section id="banner">
-      <div class="container text-center">
-        <img src="img/avatar.svg" alt="" class="pt-3 mb-3">
+    <section id="banner" class="ms_section text-center">
+      <img src="img/avatar.svg" alt="">
+      <!-- Section Heading -->
+      <div class="ms_section-heading text-center mt-4">
         <h3>START BOOTSTRAP</h3>
-        <div class="star text-center mb-3">
+        <div class="ms_star ms_star-white">
           <i class="fa-solid fa-star"></i>
         </div>
-        <ul class="d-flex justify-content-center pb-5">
-          <li>GRAPHIC ARTIST</li>
-          <li>-</li>
-          <li>WEB DESIGNER</li>
-          <li>-</li>
-          <li>ILLUSTRATOR</li>
-        </ul>
       </div>
+      <!-- List -->
+      <ul class="d-flex justify-content-center">
+        <li>
+          <h5>GRAPHIC ARTIST</h5>
+        </li>
+        <li>-</li>
+        <li>
+          <h5>WEB DESIGNER</h5>
+        </li>
+        <li>-</li>
+        <li>
+          <h5>ILLUSTRATOR</h5>
+        </li>
+      </ul>
+
     </section>
     <!-- End Banner -->
 
     <!-- Portfolio -->
-    <section id="portfolio" class="mt-5">
+    <section id="portfolio" class="ms_section">
       <div class="container">
-        <h3>PORTFOLIO</h3>
-        <div class="star text-center mb-5">
-          <i class="fa-solid fa-star"></i>
+        <!-- Section Heading -->
+        <div class="ms_section-heading text-center mb-4">
+          <h3>PORTFOLIO</h3>
+          <div class="ms_star">
+            <i class="fa-solid fa-star"></i>
+          </div>
         </div>
+        <!-- Section Row Img -->
         <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col">
+            <!-- Olga ha messo img dentro a div ms_card -->
             <img src="img/cabin.png" alt="" class="rounded">
           </div>
           <div class="col">
@@ -103,26 +117,29 @@
     <!-- End Portfolio -->
 
     <!--About-->
-    <section id="about" class="mt-5 ">
+    <section id="about" class="ms_section pt-6">
       <div class="wrapper-small">
-        <div class="container pt-5">
-          <h3>ABOUT</h3>
-          <div class="star text-center mb-5">
-            <i class="fa-solid fa-star"></i>
+        <div class="container-fluid">
+          <!-- Section Heading -->
+          <div class="ms_section-heading text-center">
+            <h3>ABOUT</h3>
+            <div class="ms_star ms_star-white">
+              <i class="fa-solid fa-star"></i>
+            </div>
           </div>
+          <!-- Section Row -->
           <div class="row g-4">
             <div class="col-12 col-md-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima harum animi iste nostrum natus
-              itaque? Iusto, delectus asperiores! Sed facilis debitis beatae? Repudiandae, assumenda maiores autem
-              corporis voluptatibus optio?
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima harum animi iste nostrum natus
+                itaque? Iusto, delectus asperiores! Sed facilis debitis beatae? Repudiandae, assumenda maiores autem
+                corporis voluptatibus optio?</p>
             </div>
             <div class="col-12 col-md-6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, possimus recusandae? Aliquid beatae
-              incidunt
-              id est architecto, ducimus cumque, voluptatem praesentium dolor amet autem cupiditate modi impedit, sequi
-              accusantium perferendis.
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima harum animi iste nostrum natus
+                itaque? Iusto, delectus asperiores! Sed facilis debitis beatae? Repudiandae, assumenda maiores autem
+                corporis voluptatibus optio?</p>
             </div>
-            <div class="col-12 text-center mb-5">
+            <div class="col-12 text-center">
               <div class="btn border-white"> <i class="fa-solid fa-download"></i> Download</div>
             </div>
           </div>
@@ -132,21 +149,24 @@
     <!--End About-->
 
     <!--Contact-->
-    <section id="contact" class="mt-3">
+    <section id="contact" class="ms_section">
       <div class="wrapper-small">
-        <div class="container">
+        <!-- Section Heading -->
+        <div class="ms_section-heading text-center">
           <h3>CONTACT ME</h3>
-          <div class="star text-center mb-3">
+          <div class="ms_star">
             <i class="fa-solid fa-star"></i>
           </div>
-          <ul >
-            <li class="pb-2">Name</li>
-            <li class="pb-2">Email Adress</li>
-            <li class="pb-2">Phone Number</li>
-            <li class="pb-4 mb-4">Message</li>
-            <li class="btn">Send </li>
-          </ul>
         </div>
+        <!-- Section content -->
+        <ul>
+          <li class="pb-2">Name</li>
+          <li class="pb-2">Email Adress</li>
+          <li class="pb-2">Phone Number</li>
+          <li class="pb-4 mb-4">Message</li>
+          <li class="btn">Send </li>
+        </ul>
+      </div>
       </div>
     </section>
     <!--End Contact-->
@@ -155,28 +175,29 @@
 
   <!-- FOOTER ------------->
   <footer>
-    <section id="footer-top">
-      <div class="wrapper">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-12 col-md-4 g-3">
-              <h4>LOCATION</h4>
-              2215 John Daniel Drive Clark, MO 54243
-            </div>
-            <div class="col-12 col-md-4 g-3">
-              <h4>AROUND THE WEB</h4>
-              <ul class="d-flex justify-content-center">
-                <li><a href=""><i class="fa-brands fa-facebook-f border rounded-circle p-2"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-google-plus-g  border rounded-circle p-2"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter  border rounded-circle p-2"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin-in  border rounded-circle p-2"></i></a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-md-4 g-3">
-              <h4> ABOUT FREELANCER</h4>
-              Freelance is a free to use, open source Bootstrap theme
-              created by <span> Start Bootstrap</span>.
-            </div>
+    <section id="footer-top" class="ms_section">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- Location -->
+          <div class="col-12 col-md-4 ">
+            <h4>LOCATION</h4>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <!-- Around The Web -->
+          <div class="col-12 col-md-4 3">
+            <h4>AROUND THE WEB</h4>
+            <ul class="d-flex justify-content-center">
+              <li><a href=""><i class="fa-brands fa-facebook-f border rounded-circle p-2"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-google-plus-g  border rounded-circle p-2"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-twitter  border rounded-circle p-2"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in  border rounded-circle p-2"></i></a></li>
+            </ul>
+          </div>
+          <!-- About Freelancer -->
+          <div class="col-12 col-md-4">
+            <h4> ABOUT FREELANCER</h4>
+            <p> Freelance is a free to use, open source Bootstrap
+              theme created by <a href="">Start Bootstrap</a> .</p>
           </div>
         </div>
       </div>
@@ -185,7 +206,9 @@
 
     <section id="footer-bottom">
       <div class="container text-center">
-        Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+        </p>
       </div>
     </section>
   </footer>
